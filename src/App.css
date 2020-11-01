@@ -1,5 +1,17 @@
+div {
+  display: flex;
+  margin: 0;
+  max-width: 100%;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 15vh;
 }
 
 .App-logo {
@@ -35,4 +47,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Social-Container {
+  margin-top: 16px;
+}
+
+.Social-Logo {
+  margin: 8px 16px;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
 }
