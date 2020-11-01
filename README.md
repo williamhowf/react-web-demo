@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## UPLOAD your website to IPFS via Pinata Cloud
+1. build your application - npm run build, upload the 'build' folder to Pinata
+2. https://pinata.cloud/, sign-up or sign-in to the site, upload your website's folder that having index.html with javascript(reactjs)
+3. tadaa, your website is hosted in IPFS with IPFS hash given by https://pinata.cloud/. E.g. : [Act-Coder-Website] (https://gateway.pinata.cloud/ipfs/Qmc93rEnsPjTBAFbEmo7qZ7MJHm9WQVHzsiDFB1PJSAPqv/)
